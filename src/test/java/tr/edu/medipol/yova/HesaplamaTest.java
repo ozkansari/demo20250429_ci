@@ -16,5 +16,16 @@ public class HesaplamaTest {
 		int sonuc = Hesaplama.topla(sayilar);
 		Assert.assertEquals(10, sonuc);
 	}
+	
+	@Test
+	public void testCikartIntInt() {
+		int sonuc = Hesaplama.cikart(100, 57);
+		Assert.assertEquals(43, sonuc);
+	}
 
+	@Test
+	public void testCarpIntInt() {
+		int sonuc = Hesaplama.carp(10, 5);
+		Assert.assertEquals(50, sonuc);
+	}
 }
